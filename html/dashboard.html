@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Dashboard</title>
+        <link rel="icon"type="img/Face.png" href="img/Face.png">
     </head>
     <body>
         <main>
@@ -18,8 +19,110 @@
                 </ul>
             </nav>
             <article>
-                <h1>Hello!</h1>
-                <p>This is my Dashboard.</p>
+                <h1 class="PageName">Dashboard</h1>
+                <div id="Table">
+                <table id="Dashboard">
+                     <tr class="TableHead">
+                        <th>Quartile</th>
+                        <th>Exam</th>
+                        <th>Course</th>
+                        <th>Credit</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td class="Quartile" rowspan="5">1</td>
+                        <td>Assessment website</td>
+                        <td>PCO</td>
+                        <td>2.5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>Written Knowledge test</td>
+                        <td>CBS</td>
+                        <td>5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr>
+                        <td>Case study exam</td>
+                        <td>PBA</td>
+                        <td>5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>Portfolio</td>
+                        <td>PPW1</td>
+                        <td>1.25</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio</td>
+                        <td>ITP1</td>
+                        <td>1.25</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td class="Quartile">2</td>
+                        <td>Presentation<br>Case study exam.</td>
+                        <td>OOP</td>
+                        <td>10</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr>
+                        <td class="Quartile" rowspan="2">3</td>
+                        <td>Case study Exam</td>
+                        <td>FDE1</td>
+                        <td>5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>Criterium Based Interview<br>
+                            Assignment<br>
+                            Case study Exam</td>
+                        <td>FDR1</td>
+                        <td>7.5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr>
+                        <td class="Quartile" rowspan="5">4</td>
+                        <td>Final delivery<br>
+                            Report of acceptance<br>
+                            Tests and optional Assessments<br>
+                            IT Development Portfolio</td>
+                        <td>FPR2</td>
+                        <td>10</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>Portfolio</td>
+                        <td>PIW</td>
+                        <td>1.25</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>Portfolio</td>
+                        <td>ITP2</td>
+                        <td>1.25</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                    <tr class="Even">
+                        <td>English Test<br>
+                            Criterium focused<br>
+                            interview</td>
+                        <td>PPD-E</td>
+                        <td>12.5</td>
+                        <td class="status-NotTaken">-</td>
+                    </tr>
+                </table>
+                </div>
+                <div>
+                    <table>
+                        <tbody>
+                            <tr class="status-NotTaken">Not Taken</tr>
+                            <tr class="status-Passed">Passed</tr>
+                            <tr class="status-Failed">Failed</tr>
+                        </tbody>
+                    </table>
+                </div>
             </article>
         </main>
         <footer>
