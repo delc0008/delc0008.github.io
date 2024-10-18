@@ -1,0 +1,26 @@
+table{ background-color: aliceblue;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+tr{color: #00CED1;background-color:#620018}
+.status-NotTaken{background-color:grey}
+.status-Failed{background-color:red}
+.status-Passed{background-color:green}
+
+table { border: 0px solid black;
+     ;
+border-radius: 50%;}
+td,th {border:1px solid black;
+    border-radius: 10%;
+text-align: center;}
+h1{text-align: center;}
+p{text-align: center;}
+.footert{ background-color: #333;
+        color: aliceblue;
+        border-color: #333;
+        
+        }
+.footert td,th{border-color: #333;}

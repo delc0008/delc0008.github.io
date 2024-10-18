@@ -1,0 +1,21 @@
+img{width: 450px;}
+div{background-color: aliceblue;
+opacity:80% ;}
+img.right{    float: right;
+    height: 250px;
+    width: auto;
+    border-radius: 10%;
+    margin-right: auto;
+    margin-left: auto;}
+p{display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 90%;
+    /*color: aliceblue;*/
+}
+
+article{display: flex;
+    align-items: center;}
