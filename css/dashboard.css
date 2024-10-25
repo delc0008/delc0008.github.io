@@ -5,13 +5,14 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
-tr{color: #00CED1;background-color:#620018}
+tr{color: #ff7b00;
+    background-color:#620018}
 .status-NotTaken{background-color:grey}
 .status-Failed{background-color:red}
 .status-Passed{background-color:green}
 
 table { border: 0px solid black;
-     ;
+        width: 80%;
 border-radius: 50%;}
 td,th {border:1px solid black;
     border-radius: 10%;
